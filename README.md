@@ -1,3 +1,6 @@
+![CI](https://github.com/vishal9519-vis/EV-digital-twin-system-/actions/workflows/ci.yml/badge.svg)
+![Python](https://img.shields.io/badge/python-3.10+-blue)
+![License](https://img.shields.io/badge/license-MIT-green) 
 # ⚡ EV Digital Twin System
 
 **AI-Powered Predictive Battery Intelligence & Smart Energy Simulation Platform**
