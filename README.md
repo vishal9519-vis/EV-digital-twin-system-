@@ -44,20 +44,39 @@ The same concept is used in industry by Bosch, Tata Elxsi, KPIT, and major OEMs.
 ## Project Structure
 
 ```
-ev_digital_twin/
-   │
-   ├── app.py                       # Main Streamlit dashboard
-   ├── setup.py                     # One-time data generation + model training
-   ├── battery_simulator.py         # Physics simulation engine
-   ├── data_engine.py               # Dataset generation and feature engineering
-   ├── ml_models.py                 # ML model training and inference
-   ├── thermal_intelligence.py      # Thermal risk analysis
-   ├── alert_system.py              # Rule-based alert engine
-   ├── charging_intelligence.py     # Charging strategy and CC-CV simulation
-   ├── digital_twin.py              # Long-horizon degradation forecasting
-   ├── requirements.txt
-   ├── README.md
-   └── .gitignore
+EV-Digital-Twin-System/
+│
+├── app.py                         # Main Streamlit dashboard
+├── requirements.txt               # Project dependencies
+├── README.md                      # Documentation
+├── .gitignore
+│
+├── modules/
+│   ├── battery_simulator.py       # Battery behavior simulation
+│   ├── charging_intelligence.py   # Charging optimization logic
+│   ├── digital_twin.py            # Digital twin engine
+│   ├── thermal_intelligence.py    # Thermal analysis
+│   ├── alert_system.py            # Alert generation
+│   └── ml_models.py               # ML prediction models
+│
+├── screenshots/
+│   ├── dashboard_main.png
+│   ├── live_monitor.png
+│   ├── charging.png
+│   ├── thermal.png
+│   ├── digital_twin.png
+│   └── alerts.png
+│
+├── demo/
+│   └── EV_Digital_Twin_demo_compressed.mp4
+│
+├── tests/
+│   └── test_system.py
+│
+└── data/
+├── battery_data.csv
+└── simulation_data.csv
+
 ```
 
 ---
